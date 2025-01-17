@@ -1,0 +1,27 @@
+# trashbin specific collections
+#
+# collection_order default is release, maybe we don't need to specify?
+collections:
+  Ilsa Series:
+    tmdb_collection_details: 123249
+    collection_order: release.asc
+    sync_mode: sync
+
+  Mondo Movies:
+    letterboxd_list_details: https://letterboxd.com/monocle/list/mondo-films-the-forbidden-world-of-the-shockumentary/detail/
+    collection_order: release.asc
+    sync_mode: sync
+
+  Nudie Cuties:
+    letterboxd_list_details: https://letterboxd.com/schlockvalue/list/boin-n-ng-the-nudie-cutie/detail/
+    collection_order: release.asc
+    sync_mode: sync
+
+  Olga Series:
+    tmdb_collection_details: 590923
+    sync_mode: sync
+
+  Roughies:
+    letterboxd_list_details: https://letterboxd.com/schlockvalue/list/gutter-noir-the-roughie/detail/
+    collection_order: release.asc
+    sync_mode: sync

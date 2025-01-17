@@ -1,0 +1,4 @@
+config.cache
+logs
+UUID
+docker.env.local

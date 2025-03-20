@@ -6,10 +6,24 @@ libraries:                           # This is called out once within the config
       collection_mode: hide_items
     collection_files:
       - file: /config/collections/movies.yml
+    collections:
+      Physical Media rips:
+        plex_all: true
+        filters:
+          filepath: rips/
+    overlay_files:
+      - default: edition
 
   Trashbin:
     collection_files:
       - file: /config/collections/trashbin.yml
+    collections:
+      Physical Media rips:
+        plex_all: true
+        filters:
+          filepath: rips-trashbin/
+    overlay_files:
+      - default: edition
 
   Everything (NSFW):
     template_variables:
@@ -17,6 +31,15 @@ libraries:                           # This is called out once within the config
     collection_files:
       - file: /config/collections/movies.yml
       - file: /config/collections/trashbin.yml
+    collections:
+      Physical Media rips:
+        plex_all: true
+        filters:
+          filepath:
+            - rips/
+            - rips-trashbin/
+    overlay_files:
+      - default: edition
 
 playlist_files:
   # - default: playlist                # This is a file within Kometa's defaults folder
@@ -75,8 +98,8 @@ webhooks:                            # Can be individually specified per library
   changes:
   delete:
 plex:                                # Can be individually specified per library as well; REQUIRED for the script to run
-  url: <<plex_url>>
-  token: <<plex_token>>
+  url: <<plexurl>>
+  token: <<plextoken>>
   timeout: 60
   db_cache:
   clean_bundles: false
@@ -84,7 +107,7 @@ plex:                                # Can be individually specified per library
   optimize: false
   verify_ssl:
 tmdb:                                # REQUIRED for the script to run
-  apikey: <<tmdb_apikey>>
+  apikey: <<tmdbkey>>
   language: en
   cache_expiration: 60
   region:

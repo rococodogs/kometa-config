@@ -10,6 +10,32 @@ collections:
     tmdb_crew: 35468
     sync_mode: sync
 
+  the Blair Witch Project (editions):
+    sort_title: Blair Witch Project
+    tmdb_movie: 2667
+    sync_mode: sync
+
+  Book of Shadows - Blair Witch 2 (editions):
+    sort_title: Blair Witch 2
+    tmdb_movie: 11531
+    sync_mode: sync
+
+  Caligula - the Untold Story (editions):
+    tmdb_movie: 148850
+    sync_mode: sync
+
+  Cat Girls Gamblers:
+    tmdb_collection_details: 706894
+    sync_mode: sync
+
+  Champagne and Bullets (editions):
+    tmdb_movie: 99373
+    sync_mode: sync
+
+  Dune (editions):
+    tmbd_movie: 841
+    sync_mode: sync
+
   the Exorcist:
     tmdb_collection_details: 12263
     sync_mode: sync
@@ -21,12 +47,18 @@ collections:
     tmdb_collection_details: 9735
     sync_mode: sync
 
-  Halloween:
-    tmdb_collection_details: 91361
+  Gamera (Showa-era):
+    tmdb_collection_details: 161766
     sync_mode: sync
 
-  Halloween (Rob Zombie):
-    tmdb_collection_details: 126209
+  Guinea Pig series:
+    tmdb_collection_details: 476063
+    sync_mode: sync
+
+  Halloween:
+    tmdb_collection_details: 91361
+    tmdb_collection: 126209
+    sync_mode: sync
 
   Herschell Gordon Lewis Feast set:
     letterboxd_list_details: https://letterboxd.com/kinogabara/list/the-herschell-gordon-lewis-feast/detail
@@ -34,19 +66,60 @@ collections:
 
   I Spit on Your Grave:
     tmdb_collection_details: 296429
+    tmdb_collection: 219691
 
-  I Spit on Your Grave (Remake):
-    tmdb_collection_details: 219691
+  Mill Creek - B-Movie Blast:
+    letterboxd_list: https://letterboxd.com/rococodogs/list/mill-creek-entertainments-b-movie-blast/detail
 
   A Nightmare on Elm Street:
     tmdb_collection_details: 8581
+    sync_mode: sync
+
+  Nosferatu (editions):
+    tmdb_movie: 653
+    sync_mode: sync
 
   Physical Media, digitized:
     summary: Digital discs (and tapes)
     letterboxd_list: https://letterboxd.com/rococodogs/list/physical-media-everything-1/detail
+    sync_mode: sync
 
   Silent Night, Deadly Night:
     tmdb_collection_details: 256296
+    sync_mode: sync
+
+  Sleepaway Camp:
+    tmdb_collection_details: 47391
+    sync_mode: sync
+
+  Slumber Party Massacre:
+    tmdb_collection_details: 138971
+    sync_mode: sync
+
+  Species:
+    tmdb_collection_details: 9887
+    sync_mode: sync
+
+  Star Wars:
+    tmdb_collection_details: 10
+    sync_mode: sync
+
+  the Texas Chain Saw Massacre (editions):
+    sort_title: Texas Chainsaw Massacre
+    tmdb_movie: 30497
+    sync_mode: sync
+
+  the Texas Chainsaw Massacre:
+    tmdb_collection_details: 111751
+    sync_mode: sync
+
+  THX-1138 (versions):
+    tmdb_movie: 636
+    sync_mode: sync
+
+  Wild at Heart (versions):
+    tmdb_movie: 483
+    sync_mode: sync
 
   the Wrongiverse:
     letterboxd_list_details: https://letterboxd.com/pd187/list/the-lifetime-wrongiverse-vivica-a-fox-david/detail

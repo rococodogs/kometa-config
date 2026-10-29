@@ -2,6 +2,14 @@
 #
 # collection_order default is release, maybe we don't need to specify?
 collections:
+  60 Minutes or Less:
+    smart_filter:
+      duration.lte: 60
+
+  Films of Barry Mahon:
+    tmdb_crew: 140832
+    sync_mode: sync
+
   Ilsa Series:
     tmdb_collection_details: 123249
     collection_order: release.asc
@@ -21,7 +29,26 @@ collections:
     tmdb_collection_details: 590923
     sync_mode: sync
 
+  Physical Media rips (trashbin):
+    plex_all: true
+    filters:
+      filepath: rips-trashbin/
+
+  Pinku Films:
+    letterboxd_list_details: https://letterboxd.com/obscureness/list/pinku/detail/
+    collection_order: title.asc
+    sync_mode: sync
+
   Roughies:
     letterboxd_list_details: https://letterboxd.com/schlockvalue/list/gutter-noir-the-roughie/detail/
     collection_order: release.asc
+    sync_mode: sync
+
+  Something Weird Video catalog:
+    letterboxd_list_details: https://letterboxd.com/bradleyjkornish/list/something-weird-video/detail/
+    collection_order: title.asc
+    sync_mode: sync
+
+  Taboo Series:
+    tmdb_collection_details: 1086807
     sync_mode: sync

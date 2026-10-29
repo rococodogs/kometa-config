@@ -2,3 +2,4 @@ config.cache
 logs
 UUID
 docker.env.local
+anidb_cache

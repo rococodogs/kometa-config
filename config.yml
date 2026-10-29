@@ -5,41 +5,24 @@ libraries:                           # This is called out once within the config
     template_variables:
       collection_mode: hide_items
     collection_files:
-      - file: /config/collections/movies.yml
-    collections:
-      Physical Media rips:
-        plex_all: true
-        filters:
-          filepath: rips/
+    - file: /config/collections/movies.yml
     overlay_files:
-      - default: edition
+    - default: edition
 
   Trashbin:
     collection_files:
-      - file: /config/collections/trashbin.yml
-    collections:
-      Physical Media rips:
-        plex_all: true
-        filters:
-          filepath: rips-trashbin/
+    - file: /config/collections/trashbin.yml
     overlay_files:
-      - default: edition
+    - default: edition
 
   Everything (NSFW):
     template_variables:
       collection_mode: hide
     collection_files:
-      - file: /config/collections/movies.yml
-      - file: /config/collections/trashbin.yml
-    collections:
-      Physical Media rips:
-        plex_all: true
-        filters:
-          filepath:
-            - rips/
-            - rips-trashbin/
+    - file: /config/collections/movies.yml
+    - file: /config/collections/trashbin.yml
     overlay_files:
-      - default: edition
+    - default: edition
 
 playlist_files:
   # - default: playlist                # This is a file within Kometa's defaults folder
@@ -65,7 +48,7 @@ settings:
   show_missing_episode_assets: false
   show_asset_not_needed: true
   sync_mode: append
-  minimum_items: 1
+  minimum_items: 0
   default_collection_order:
   delete_below_minimum: true
   delete_not_scheduled: false
@@ -90,6 +73,8 @@ settings:
   custom_repo:
   overlay_artwork_filetype: jpg
   overlay_artwork_quality: 75
+  show_unfiltered: false
+  auto_sort_hubs:
 webhooks:                            # Can be individually specified per library as well
   error:
   version:
@@ -132,6 +117,8 @@ anidb:                               # Not required for AniDB builders unless yo
   password: ######
   language: en
   client:
+  enable_mature: false
+  cache_expiration: 60
 radarr:                              # Can be individually specified per library as well
   url: http://192.168.1.12:7878
   token: ################################
